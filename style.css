@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dbb0b0;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  select {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  canvas {
+    max-width: 100%;
+    height: 500px;
+  }
+  

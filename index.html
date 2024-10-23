@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binance Market Data WebSocket</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="lib/chart.js-4.4.5"></script>
+  <script src="js/app.js" defer></script>
+
+</head>
+<body>
+  <div class="container">
+    <h1>Binance Market Data</h1>
+    <div class="controls">
+      <select id="coin-select">
+        <option value="ethusdt">ETH/USDT</option>
+        <option value="bnbusdt">BNB/USDT</option>
+        <option value="dotusdt">DOT/USDT</option>
+      </select>
+
+      <select id="interval-select">
+        <option value="1m">1 Minute</option>
+        <option value="3m">3 Minutes</option>
+        <option value="5m">5 Minutes</option>
+      </select>
+    </div>
+    <canvas id="candlestickChart" width="400" height="200"></canvas> <!-- Add this line -->  </div>
+
+  <script src="js/app.js"></script>
+  <script src="js/chart.js"></script>
+  <script src="lib/chart.js-4.4.5"></script> <!-- Chart.js Library -->
+
+</body>
+</html>
